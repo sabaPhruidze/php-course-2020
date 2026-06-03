@@ -1,6 +1,3 @@
-<?php include "partials/header.php" ?>
+<?php include_once "partials/header.php"; ?>
 <h1>About us</h1>
-<footer>
-    Copyright &copy; TheCodeholic</footer>
-</body>
-</html>
+<?php include_once 'partials/footer.php'; ?>
