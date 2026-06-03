@@ -1,13 +1,16 @@
 <?php
 
 // Create array
-
+$fruits =["banana","apple","orange"]; // array();
 // Print the whole array
-
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>';
 // Get element by index
-
+echo $fruits[1].'<br>'; //0,1,2
 // Set element by index
-
+$fruits[0] = 'Peach';
+echo $fruits[0];
 // Check if array has element at index 2
 
 // Append element
