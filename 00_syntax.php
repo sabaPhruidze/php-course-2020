@@ -19,25 +19,20 @@
  echo 'Hello world another tag';
  /*
  
- HTML სრული სტრუქტურა აუცილებელი არ არის, რომ PHP იმუშაოს.
-
-ესენი:
+ HTML სრული სტრუქტურა აუცილებელი არ არის, რომ PHP იმუშაოს. ესენი:
 
 <!doctype html>
 <html>
-<head></head>
-<body></body>
+ <head></head>
+ <body></body>
 </html>
 
-საჭიროა იმისთვის, რომ გვერდი იყოს სწორი, სრული HTML დოკუმენტი.
-
+საჭიროა იმისთვის, რომ გვერდი იყოს სწორი, სრული HTML დოკუმენტი. 
 მაგრამ PHP-სთვის აუცილებელი არ არის. PHP უბრალოდ აკეთებს ამას:
+echo 'hello world'; და ბრაუზერში აგზავნის ტექსტს/HTML-ს.
 
-echo 'hello world';
-
-და ბრაუზერში აგზავნის ტექსტს/HTML-ს.
+sudo /opt/lampp/manager-linux-x64.run სერვერის ჩართვა
  */
 ?>
 </body>
 </html>
-<!-- sudo /opt/lampp/manager-linux-x64.run სერვერის ჩართვა -->
