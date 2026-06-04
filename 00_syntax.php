@@ -40,3 +40,4 @@ echo 'hello world';
 ?>
 </body>
 </html>
+<!-- sudo /opt/lampp/manager-linux-x64.run სერვერის ჩართვა -->

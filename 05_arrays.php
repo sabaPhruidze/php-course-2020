@@ -62,3 +62,7 @@ echo $fruits[0];
 
 
 // Two dimensional arrays
+$items = ['juice','pepsi','cola'];
+foreach($items as $item){
+    echo '<br/>'."$item ";
+}
